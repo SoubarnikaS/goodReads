@@ -24,7 +24,7 @@ const Home = () => {
                     </div>
                 </div>
                 <div className="sideWrapper">
-                    <img src = {BackG} />
+                    <img src = {BackG} alt="noImg"/>
                     <div className="side">
                         {/* <div className="voting">
                             <span className="voteText">
