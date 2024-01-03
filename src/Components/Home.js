@@ -1,4 +1,5 @@
 import ONav from "./ONav";
+import BackG from '../Assests/Images/newBg.jpg';
 import { Link } from "react-router-dom";
 
 const Home = () => {
@@ -23,6 +24,7 @@ const Home = () => {
                     </div>
                 </div>
                 <div className="sideWrapper">
+                    <img src = {BackG} />
                     <div className="side">
                         {/* <div className="voting">
                             <span className="voteText">
