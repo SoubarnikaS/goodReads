@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,500;0,600;1,400;1,600&display=swap');
+
+
+.homeWrapper {
+  /* position: relative; */
+  overflow-x: hidden;
+  /* background-color: black; */
+  height: 90vh;
+  width: 100vw;
+  display: flex;
+}
+
+.sidePanel {
+  height: 90vh;
+  width: 20vw;
+  /* background-color: #2e2c2c; */  /*pakka*/
+  background-color: #1e1d1d;
+  /* background-image: linear-gradient(to right, #000000, #0b0a0a, #131212, #191818, #1f1e1e, #1f1e1e, #1f1e1e, #1f1e1e, #191818, #131212, #0b0a0a, #000000); */
+  /* background-image: linear-gradient(to right, #000000, #0e0e0e, #181818, #202020, #282828, #2b2b2b, #2e2e2e, #313131, #303030, #2e2e2e, #2d2c2d, #2c2b2b); */
+  /* background-image: linear-gradient(to right, #000000, #0e0e0e, #181818, #202020, #282828, #2b2b2b, #2e2e2e, #313131, #303030, #2e2e2e, #2d2c2d, #2c2b2b); */
+}
+
+.side {
+  height: 90vh;
+  width: 80vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  backdrop-filter: blur(2px);
+  /* background-color: blueviolet; */
+}
+
+.sideDiv {
+  height: 45vh;
+  width: 20vw;
+}
+
+.sideButtons {
+  padding-top: 25%;
+}
+
+.listH {
+  height: 6.5vh;
+  width: 19.5vw;
+  font-size: 1rem;
+  /* font-weight: 545; */
+  text-align: center;
+  padding-top: 4%;
+  margin-left: 1%;
+  margin-bottom: 4%;
+  /* background-color: rgb(70, 70, 70); */
+  /* background-color: rgb(73, 73, 73); */
+  /* background-color: #2e2c2c; */
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 7px;
+  font-family: Poppins;
+  color: rgb(236, 142, 18);
+  /* color:rgba(255, 208, 0, 0.699); */
+  cursor: pointer;
+}
+
+.listH:hover {
+  background-color: transparent;
+  /* border: 1px solid rgb(245, 201, 24); */
+  box-shadow: 0 0 0 1px #ba9b0a, 0 0 0 1px #c69a00, 0 0 0 1px #d39800, 0 0 0 1px #e09500, 0 0 0 1px #ed9200, 0 0 0 1px #ec9000, 0 0 0 1px #eb8f00, 0 0 0 1px #ea8d00, 0 0 0 1px #db8d00, 0 0 0 1px #cd8d01, 0 0 0 1px #bf8c07, 0 0 0 1px #b28a0f;
+}
+
+.thoughts {
+  height: 7vh;
+  width: 19.5vw;
+  font-size: 1.1rem;
+  font-weight: 550;
+  text-align: center;
+  padding-top: 4%;
+  margin-left: 1%;
+  margin-top: 55%;
+  font-family: Poppins;
+  background-color: rgb(203, 108, 6);
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+
+}
+
+.thoughts:hover {
+  background-color: #ba9b0a;
+}
+
+.ex {
+  height: 9vh;
+  width: 10vw;
+  background-color: red;
+}
+
+.black-box {
+  position: relative;
+  height: 100vh;
+  width: 95vw;
+}
+
+.vote {
+  position: absolute;
+  /* background: transparent; */
+  /* background: rgba(59, 90, 63, 0.8); */
+  height: 390px;
+  width: 90%;
+  left: 70px;
+  top: 120px;
+
+}
+
+.favBook {
+  width: 80vw;
+  height: 90vh;
+
+}
+
+.sideWrapper {
+  position: relative;
+  /* background-color: red; */
+  width: 80vw;
+  height: 90vh;
+  /* background-color: #2e2c2c; */
+  /* background-image: url("https://img.freepik.com/premium-photo/inspiring-office-interior-design-vintage-style-generative-ai-aig-31_31965-196117.jpg?size=626&ext=jpg&ga=GA1.1.1413502914.1696636800&semt=ais"); */
+  /* background-image: url(C:\Users\souba\OneDrive\Documents\GitHub\React_IRC\CC1\gread\src\Assests\Images\maybe.jpg); */
+  /* background-image: url("https://brilliantio.com/wp-content/uploads/2023/07/where-to-write-books_210.png.webp"); */
+  background-image: url(E:\Documents\GitHub\React_IRC\CC1\gread\src\Assests\Images\newBg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+}
+
+.options {
+  position: absolute;
+  /* width: 8vw;
+  height: 9vh; */
+  gap: 2rem;
+  /* background-color: red; */
+    /* margin: 50px; */
+    /* margin-top: 300px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.voting {
+  position: absolute;
+  width: 73.6vw;
+  height: 30vh;
+  /* margin-top: 40px;
+  margin-left: 50px; */
+  /* background-color: transparent; */
+  /* background-color:#151515; */
+  display: flex;
+  flex-direction: column;
+  /* backdrop-filter: blur(15px); */
+}
+
+.voteText {
+
+  text-decoration: none;
+  /* -webkit-text-fill-color:  transparent; */
+  -webkit-text-fill-color: rgb(247, 133, 68);
+  -webkit-text-stroke: thistle white;
+  margin-left: 30px;
+
+  /* -webkit-text-fill-color: transparent; */
+  /* color: rgb(238, 92, 8); */
+  font-size: 2rem;
+  font-family: Poppins;
+}
+
+.voteButton {
+  background-image: linear-gradient(135deg, #ec9512 10%, #DE4313 100%);
+  height: 25%;
+  width:60%;
+  margin-left:35%;
+  /* width: 80%;
+  margin-left: 10%; */
+  margin-top: 20px;
+  border: none;
+  border-radius: 30px;
+  font-size: 1.5rem;
+  font-family: Poppins;
+  cursor: pointer;
+}
+
+.cardH {
+  overflow: visible;
+  width: 200px;
+  height: 300px;
+  cursor: pointer;
+}
+
+.content {
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 300ms;
+  box-shadow: 0px 0px 10px 1px #000000ee;
+  border-radius: 5px;
+}
+
+.back {
+  background-color: #3e3d3d;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.back {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  /* background-color: transparent; */
+}
+
+.back::before {
+  position: absolute;
+  content: ' ';
+  display: block;
+  width: 160px;
+  height: 160%;
+  background: linear-gradient(90deg, transparent, #ff9966, #ff9966, #ff9966, #ff9966, transparent);
+  animation: rotation_481 5000ms infinite linear;
+}
+
+.back-content {
+  position: absolute;
+  width: 99%;
+  height: 99%;
+  /* background-color: #151515; */
+  background-color: #211f1f;
+  border-radius: 5px;
+  color: rgb(247, 133, 68);
+  /* color: white; */
+  font-family: Poppins;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+
+@keyframes rotation_481 {
+  0% {
+    transform: rotateZ(0deg);
+  }
+
+  0% {
+    transform: rotateZ(360deg);
+  }
+}
+
+.text-focus-in {
+	-webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	        animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
+/* ----------------------------------------------
+ * Generated by Animista on 2023-12-24 17:26:7
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation text-focus-in
+ * ----------------------------------------
+ */
+ @-webkit-keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+  }
+}
+@keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+  }
+}

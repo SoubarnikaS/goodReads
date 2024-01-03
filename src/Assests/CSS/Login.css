@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com');
+@import url('https://fonts.gstatic.com” crossorigin');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,500;0,600;1,400;1,600&display=swap');
+
+.loginBody{
+    /* background-image: linear-gradient(to right, #a8a8a8, #b8b8b8, #c8c8c8, #d8d8d8, #e9e9e9, #e9e9e9, #e9e9e9, #e9e9e9, #d8d8d8, #c8c8c8, #b8b8b8, #a8a8a8); */
+    /* background-image: url("https://i.pinimg.com/736x/55/3c/2e/553c2e36cd71db1055e27125b77c0ef3.jpg"); */
+    background-image: url("https://images.pexels.com/photos/8526671/pexels-photo-8526671.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    height:89.8vh;
+    padding-top: 1px;
+    
+}
+
+.loginWrapper{
+    height:80vh;
+    width:120vh;
+    margin-top:35px;
+    margin-left: 350px;;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: column; */
+    /* padding:100px; */
+    /* background-color: chartreuse; */
+}
+
+.login{
+    /* background-color:rgb(204, 65, 65); */
+    /* background-color: black; */
+    background-image: linear-gradient(to right, #000000, #0c0c0c, #151414, #1c1b1b, #232121, #252323, #272525, #292727, #262525, #242222, #212020, #1f1e1e);
+    /* background-image: linear-gradient(to right, #000000, #111010, #1b1b1b, #252525, #302f2f, #343333, #393838, #3d3c3c, #3c3b3b, #3b3b3b, #3a3a3a, #393939); */
+    /* background-image: linear-gradient(to right, #000000, #060405, #0c0909, #110d0d, #151010, #1b1717, #211d1d, #282323, #332f2f, #3f3b3b, #4b4747, #585454); */
+    /* background-image: linear-gradient(to right, #1a1414, #171111, #130e0e, #0e0a0a, #080606, #100e0e, #151414, #1a1919, #282727, #383535, #474444, #585454); */
+    /* background-image: linear-gradient(to left, #2c2b2b, #323131, #393737, #3f3d3d, #464343, #4b4848, #504c4c, #555151, #5a5656, #5e5b5b, #636060, #686565); */
+    height:80vh;
+    width:90vh;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: column; */
+    gap:2rem;
+    box-shadow:
+  2.3px 2px 2.2px rgba(0, 0, 0, 0.093),
+  5.5px 4.9px 5.3px rgba(0, 0, 0, 0.133),
+  10.4px 9.3px 10px rgba(0, 0, 0, 0.165),
+  18.5px 16.5px 17.9px rgba(0, 0, 0, 0.197),
+  34.7px 30.9px 33.4px rgba(0, 0, 0, 0.237),
+  83px 74px 80px rgba(0, 0, 0, 0.33)
+;
+
+}
+
+.carosel{
+    /* background-color: blueviolet; */
+    height:80vh;
+    width:84vh;
+    border-radius: 20px;
+    /* background-image: url("C:\Users\souba\OneDrive\Documents\GitHub\React_IRC\CC_Review\gread\src\Assests\Images\Carosel.webp"); */
+}
+
+.carosel img{
+    height: 583px;
+    width: 445px;
+    border-radius: 40px;
+    box-shadow:
+  2.8px 2.8px 2.2px rgba(0, 0, 0, 0.045),
+  6.7px 6.7px 5.3px rgba(0, 0, 0, 0.065),
+  12.5px 12.5px 10px rgba(0, 0, 0, 0.08),
+  22.3px 22.3px 17.9px rgba(0, 0, 0, 0.095),
+  41.8px 41.8px 33.4px rgba(0, 0, 0, 0.115),
+  100px 100px 80px rgba(0, 0, 0, 0.16)
+;
+}
+
+.loginF{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:1rem;
+}
+
+.loginInput{
+    background-color: #d3cdcd;
+    border-radius: 4px;
+    font-weight: 770;
+    border-style: none;
+    outline: none;
+    padding: 12px;
+    width:125%;
+}
+
+.header{
+    font-size: 2.7rem;
+    margin-top: 3px;
+    font-weight: 540;
+    font-family: "Poppins";
+    background: linear-gradient(to right, #ba9b0a, #c69a00, #d39800, #e09500, #ed9200, #ec9000, #eb8f00, #ea8d00, #db8d00, #cd8d01, #bf8c07, #b28a0f);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.buttonL{
+    width: 105%;
+    font-size: 1.1rem;
+    height: 2.4rem;
+    border-style: none;
+    border-radius: 10px;
+    padding: 4px;
+    margin-top: 9px;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: "Poppins";
+    /* background-color: #f59d3c; */
+    /* background-color: darkorange; */
+    background-image: linear-gradient(to right, #ba9b0a, #c69a00, #d39800, #e09500, #ed9200, #ec9000, #eb8f00, #ea8d00, #db8d00, #cd8d01, #bf8c07, #b28a0f);
+    /* background-color: rgb(228, 104, 21); */
+}
+
+::placeholder{
+    color:#454444;
+    font-family: "Poppins";
+}
+
+.buttonL:hover{
+    /* background-color: brown; */
+    /* background-color: rgb(228, 104, 21); */
+    background-color: brown;
+    
+}
+
+.new{
+    color: #d5b8b8;
+    cursor: pointer;
+   
+}

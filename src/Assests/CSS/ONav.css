@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com');
+@import url('https://fonts.gstatic.com” crossorigin');
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@500&display=swap');
+
+.Onavigation {
+    height: 10vh;
+    width: 100vw;
+    margin-top: -16px;
+    margin-left: 0px;
+    top:0;
+    background-image: linear-gradient(to right, #000000, #0e0e0e, #181818, #202020, #282828, #2b2b2b, #2e2e2e, #313131, #303030, #2e2e2e, #2d2c2d, #2c2b2b);
+    /* background-color: brown; */
+    position: relative;
+}
+
+
+li {
+    list-style: none;
+    text-decoration: none;
+}
+
+.naviLinks {
+    text-decoration: none;
+    display: flex;
+}
+
+.brand {
+    justify-content: left;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    /* font-weight: 540; */
+    font-family: "Kalnia";
+    background: linear-gradient(to right, #ba9b0a, #c69a00, #d39800, #e09500, #ed9200, #ec9000, #eb8f00, #ea8d00, #db8d00, #cd8d01, #bf8c07, #b28a0f);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.NavLink {
+    list-style: none;
+    text-decoration: none;
+    color:rgb(247, 133, 68);
+
+}
+
+.explore{
+    font-family: Poppins;
+    /* justify-content: end; */
+    margin-left: 68%;
+    margin-top:15px;
+    font-size:1.7rem; 
+    cursor: pointer;
+    /* background-color: red; */
+   
+}
+
+.newLinks{
+    color:rgb(247, 133, 68);
+    margin-left:30px;
+    padding:4.8px;
+    width:2.5vw;
+    /* background-color: red; */
+    position: relative;
+}
+
+.newLinks:hover{
+    color:rgb(255, 64, 0);
+}
+
+.logout {
+    justify-content: end;
+    margin-left: 90vw;
+    margin-top: -7.7vh;
+    list-style: none;
+    text-decoration: none;
+}
+
+.logout button {
+    height: 40px;
+    font-size: 1rem;
+    font-weight: 490;
+    width: 90px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(247, 133, 68);
+    color: rgb(183, 11, 45);
+    cursor: pointer;
+}
